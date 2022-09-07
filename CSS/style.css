@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header p {
+    font-family: 'Inconsolata', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    color: #333333;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+main section.mensaje {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 150px;
+
+    padding-top: 50px 100px;
+}
+
+div.espantapajaros img {
+    width: 539px;
+    height: 447px;
+    padding-top: 30px;
+}
+
+div.informacion h1 {
+    width: 586px;
+    /* height: 190px; */
+
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+
+    color: #333333;
+}
+
+div.informacion p {
+    width: 381px;
+    /* height: 108px; */
+
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+
+    color: #4F4F4F;
+}
+
+div.informacion button {
+    width: 216px;
+    height: 68px;
+
+    background: #333333;
+    color: #FFFFFF;
+
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+
+    transition: all 0.5s ease ;
+}
+
+div.informacion button:hover {
+    background-color: white;
+    color: #000000;
+}
+
+footer {
+    position: relative;
+}
+
+footer p {
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    top: 100px;
+    left: 650px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+@media screen and (max-width: 1267px) {
+    body {
+        height: 100%;
+        overflow: visible;
+    }
+}
